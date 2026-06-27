@@ -94,8 +94,9 @@ Do not write workers as the main active complaint or strike subject unless the u
      5. End with a natural question, topic request, self-check prompt, or light brand close.
 
 5. Follow project output rules.
-   - By default, output only the complete script text.
-   - Do not show sources, self-check, or risk notes unless the user asks.
+   - By default, output the complete script text.
+   - When the script uses regulations, specifications, K-series/TBOX parameters, material data, container-loading facts, competitor/current-market facts, or other external facts, append a short `资料出处` footer listing only the sources actually used.
+   - Do not show self-check or risk notes unless the user asks.
 
 ## Tone
 

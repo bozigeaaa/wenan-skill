@@ -46,7 +46,8 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
    - Use contrast, questions, and scenario logic instead of shouting.
 
 5. Output only the rewritten script by default.
-   - Follow project `AGENTS.md`: no visible diagnosis, source list, or self-check unless the user asks.
+   - Preserve any existing `资料出处` footer from the source draft when the rewritten script still uses those facts.
+   - Follow project `AGENTS.md`: no visible diagnosis or self-check unless the user asks.
 
 ## Style Targets
 

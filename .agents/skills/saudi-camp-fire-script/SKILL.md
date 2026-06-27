@@ -73,6 +73,7 @@ Read `references/fire-topic-library.md` when choosing or splitting topics.
    - Does the script only have one main point?
    - Does it explain the specific SBC 801 / Civil Defense requirement instead of only naming the standard?
    - Does every product claim connect to that requirement?
+   - If the script uses regulations, fire-resistance data, standards, test reports, product parameters, or current external facts, append a short `资料出处` footer listing only the sources actually used.
    - Are exact numbers and certifications confirmed?
    - Does it avoid writing the audience as naive?
    - Does it avoid invented competitor wrongdoing?

@@ -43,7 +43,8 @@ Use this skill for cross-product, general procurement, supplier selection, local
 4. Land the product naturally.
    - Product appears as the practical answer to the risk, not as an inserted ad.
 
-5. Output only the complete script by default.
+5. Output the complete script by default.
+   - If the script uses specifications, company/product parameters, price/cost claims, current market facts, competitor comparisons, logistics quantities, delivery capabilities, or other external facts, append a short `资料出处` footer listing only the sources actually used.
 
 ## Tone
 

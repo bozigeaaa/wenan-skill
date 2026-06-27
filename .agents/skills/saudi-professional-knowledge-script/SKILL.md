@@ -41,7 +41,8 @@ Use this as the general professional科普 skill. If the topic is specifically a
 4. Keep it pure科普 by default.
    - Do not add 东方骆驼 or product capabilities unless the user asks.
 
-5. Output only the complete script by default.
+5. Output the complete script by default.
+   - If the script uses regulations, official programs, policy facts, approval requirements, specifications, company/product facts, or current external facts, append a short `资料出处` footer listing only the sources actually used.
 
 ## Tone
 

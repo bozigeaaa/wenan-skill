@@ -81,8 +81,9 @@ Every parameter, scenario, and product claim must answer that one question. If i
      5. End with a natural question, topic request, next-video hook, or light brand close.
 
 5. Follow project output rules.
-   - By default, output only the complete script text.
-   - Do not show sources, self-check, or risk notes unless the user asks.
+   - By default, output the complete script text.
+   - When the script uses regulations, specifications, company/product parameters, material data, competitor/current-market facts, or other external facts, append a short `资料出处` footer listing only the sources actually used.
+   - Do not show self-check or risk notes unless the user asks.
 
 ## Tone
 

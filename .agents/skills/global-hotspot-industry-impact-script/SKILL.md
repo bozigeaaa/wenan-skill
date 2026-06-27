@@ -61,9 +61,9 @@ Also inspect project sources when industry framing is needed:
    - If user explicitly asks to bring product, route to `$saudi-product-seeding-script` or the relevant product skill.
 
 6. Output rules.
-   - Default output only the final script.
+   - Default output the final script with a short `资料出处` footer because hotspot scripts always rely on current external facts.
    - If user asks "先给选题", output 3-5 hotspot topic options with title, one impact point, and risk notes.
-   - If user asks for sources, cite sources and dates.
+   - Cite only sources used for the selected hotspot facts and the industry-impact chain; include source name, publication/access date when available, and link.
 
 ## Hard Boundaries
 

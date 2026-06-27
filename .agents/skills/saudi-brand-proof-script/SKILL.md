@@ -33,7 +33,8 @@ Create brand背书 scripts that prove company capability through project scenes 
 4. Prove through mechanism.
    - Use "because X, project team can Y" rather than adjectives.
 
-5. Output only the complete script by default.
+5. Output the complete script by default.
+   - If the script uses company facts, factory area, stock/delivery/install capability, brand/entity names, policy/current-market claims, or other verifiable facts, append a short `资料出处` footer listing only the sources actually used.
 
 ## Tone
 

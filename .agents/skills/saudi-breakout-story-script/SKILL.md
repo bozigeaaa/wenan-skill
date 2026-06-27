@@ -38,7 +38,8 @@ Before writing:
 4. Keep it product-free.
    - If the topic naturally touches temporary camps or construction, explain the industry logic without turning it into a product pitch.
 
-5. Output only the complete script by default.
+5. Output the complete script by default.
+   - If the script uses current news, policy, prices, market changes, regulations, or other factual claims that required browsing or local source verification, append a short `资料出处` footer listing only those sources.
 
 ## Tone
 

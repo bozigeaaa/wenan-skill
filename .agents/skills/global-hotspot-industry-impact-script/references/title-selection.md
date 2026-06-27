@@ -1,0 +1,42 @@
+# Title Selection
+
+## Title Job
+
+The title must do three things:
+
+1. Hook with the hotspot.
+2. Show the Saudi engineering/temporary construction relationship.
+3. Avoid exaggerating the consequence.
+
+## Candidate Generation
+
+Generate three title candidates internally:
+
+- Curiosity title: asks what the hotspot changes.
+- Practical title: names the project-side thing to recheck.
+- Risk title: names the hidden risk without panic.
+
+Choose the one with the strongest truth-to-click ratio.
+
+## Good Title Patterns
+
+- "霍尔木兹一紧张，沙特工地最先该重算什么？"
+- "中东航运一波动，沙特项目交付为什么会跟着紧张？"
+- "国际油价一动，沙特营地预算最容易漏算哪一项？"
+- "一个国际热点，为什么会影响沙特工地的采购节奏？"
+
+## Avoid
+
+- "霍尔木兹停关，沙特项目全线停摆"
+- "中东变天，临建行业要爆了"
+- "所有货船都绕行，材料马上暴涨"
+- "这次事件让东方骆驼机会来了"
+
+## Final Title Check
+
+Before finalizing, ask internally:
+
+- Does the title rely on a verified fact?
+- Does it name one industry relationship?
+- Would the title still be true if the situation improves tomorrow?
+- Is it professional enough for B2B viewers?

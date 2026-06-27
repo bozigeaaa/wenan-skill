@@ -1,0 +1,4 @@
+interface:
+  display_name: "Saudi Sanitary Unit Script"
+  short_description: "Write Saudi TBOX/K-series sanitary-unit scripts"
+  default_prompt: "$saudi-sanitary-unit-script 基于移动厕所与卫生间资料，写一条单点深度中文口播脚本。"

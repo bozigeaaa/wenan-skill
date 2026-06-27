@@ -1,0 +1,4 @@
+interface:
+  display_name: "Saudi Light Steel Script"
+  short_description: "Write Saudi light-steel B2B short-video scripts"
+  default_prompt: "$saudi-light-steel-script 基于薄壁轻钢资料，写一条单点深度中文口播脚本。"

@@ -12,7 +12,9 @@ Use these when confirmed by local sources, user confirmation, or reliable curren
 - Wind resistance, seismic fortification, fire-resistance duration, temperature claims.
 - Installation time, delivery time, local stock volume, monthly capacity, project scale.
 - Price, ROI, maintenance cost, energy saving, AC-load reduction.
+- Lifespan, warranty period, anti-corrosion period, "15-20 years", "full lifecycle", or "guaranteed long-term use".
 - Saudi code, approval, Civil Defense, SABER/SASO, or any mandatory requirement.
+- Customs clearance documents or import compliance documents, unless the script is specifically about imported goods/cross-border procurement.
 - Competitor names, market share, current mainstream Saudi alternatives, or product performance comparisons.
 
 ## Parameter Use
@@ -46,6 +48,9 @@ Safe downgrade examples for unverified or conflicting parameters:
 - "100mm glass wool" -> "墙体保温隔音填充材料".
 - "抗风十级" -> "需要按项目所在地风荷载要求做结构匹配".
 - "抗震 7 度" -> "需要按项目所在地设防要求核算".
+- "清关资料" in a local factory script -> "项目资料包/产品规格书/材料参数表/结构计算/消防资料/交付验收记录".
+- "保障 15-20 年使用" -> "面向长期驻地使用，具体寿命口径以确认版资料和项目维护条件为准".
+- "严格适配 SBC" -> "按项目适用的 SBC 模块、图纸和结构计算做对齐".
 
 ## Competitor And Market Claims
 
@@ -54,6 +59,7 @@ If comparing with current Saudi market alternatives:
 - Browse current reliable sources before writing current-market claims.
 - Prefer comparing solution types: packing container, ordinary prefab, traditional site-built, low-price temporary units, local stock vs imported supply.
 - Do not accuse competitors of fraud, unsafe materials, or non-compliance without evidence.
+- Do not use "照搬国内配置" as a default competitor pattern; it is only usable as a narrow inexperienced-supplier scenario when sourced or approved.
 - Use "适用场景不同", "风险结构不同", "容易忽略的配置缺口", "后期维护压力不同" instead of "别人不行".
 
 ## Safe Claim Patterns

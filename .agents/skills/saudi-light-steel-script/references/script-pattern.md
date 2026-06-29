@@ -18,6 +18,7 @@ Avoid:
 - Making buyers look naive.
 - Saying the market is full of fraud without evidence.
 - Starting with a list of product specs.
+- Starting with one parameter and ending with a different topic.
 
 ### 2. Explain One Mechanism
 
@@ -28,6 +29,15 @@ Explain the selected mechanism in plain Chinese. Pick one, not all:
 - Climate logic: heat, sand, corrosion, AC load, and maintenance.
 - Usage logic: medium/long-term camp, office, dormitory, image project.
 - Delivery logic: local factory, local stock, Chinese coordination, installation support.
+
+Do not mix these in one script. For example:
+
+- G550/C-shaped steel -> steel grade, yield strength, section logic, why thickness alone is incomplete.
+- Heat/sand/corrosion -> envelope, sealing, anti-corrosion, maintenance boundary.
+- Local delivery -> local manufacturing, project资料包, installation coordination.
+- SBC 308/309 -> design/construction compliance boundary.
+
+If the title is one of these, the ending must return to that exact mechanism.
 
 Every technical term needs a plain explanation:
 - "围护系统，就是外墙、屋面、门窗这几层一起决定室内环境。"
@@ -76,5 +86,8 @@ Choose one ending style:
 - Topic request: "下一期你们想听墙体系统、屋面系统，还是轻钢和打包箱怎么选？"
 - Self-check: "你可以先问供应商一句：这个参数到底解决的是结构、隔热，还是交付？答不清，后面就容易乱。"
 - Light brand close: "出海做中长期营地，房子不是搭起来就结束。真正考验，是住进去以后还稳不稳。"
+
+When using local-supplier perspective, prefer:
+- "在沙特做中长期营地，房子不是搭起来就结束。真正考验，是住进去以后还稳不稳。"
 
 Avoid repeating one fixed CTA.

@@ -8,6 +8,7 @@ Verify before using:
 - Certifications, official approvals, qualified supplier lists, government recognition.
 - Team size, language capability, locations, service coverage.
 - Named projects, client names, project outcomes, testimonials.
+- Customs clearance documents, SABER/SASO shipment documents, importer responsibilities, and any claim that local manufacturing eliminates import procedures.
 
 Known confirmed project-level guidance:
 
@@ -29,6 +30,7 @@ If names conflict across files, check `knowledge/钧瀚产品优势分级分类�
 - "本地化交付能力有助于减少跨境沟通和等待成本。"
 - "具体库存和交付周期，要以项目当期配置和排产为准。"
 - "它的价值不是口号，而是设计、生产、运输、安装、售后能不能形成一条清楚的责任链。"
+- "如果是沙特本地生产和本地交付，重点通常是项目资料包、规格书、安装方法书和交付记录；清关资料只在进口或跨境采购时适用。"
 
 ## Avoid
 

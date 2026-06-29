@@ -44,6 +44,8 @@ If the topic is mainly SBC 801, Civil Defense, Salamah, fire separation, egress,
 
 One video explains one light-steel point. Do not turn one script into a full product catalog.
 
+Title, opening, parameters, product landing, and ending must answer the same question. If the title is about G550/C-shaped steel, do not drift into transport cost, wind/seismic rating, local mass production, or SBC approval in the same script. Those are separate episodes.
+
 Rewrite broad topics into one precise question:
 
 - "Why does this wall system matter in a Saudi camp?"
@@ -58,6 +60,7 @@ Every parameter, scenario, and product claim must answer that one question. If i
 1. Identify the single point.
    - Convert the user's topic into one mechanism-level question.
    - If the topic includes multiple selling points, choose the strongest one and leave the others out.
+   - Decide the intended ending before drafting. If the ending does not answer the title, split the topic or change the title.
 
 2. Verify facts.
    - Read `references/fact-check-rules.md`.
@@ -89,6 +92,7 @@ Every parameter, scenario, and product claim must answer that one question. If i
 
 - Professional, direct, and grounded.
 - Like a Saudi engineering practitioner explaining one real selection issue.
+- Default to a senior Saudi local supplier / project delivery perspective. Do not unnecessarily expose a China-to-Saudi shipment angle.
 - Do not sound cheerful, promotional, or brochure-like.
 - Use short spoken sentences.
 - Explain technical terms immediately in plain Chinese.
@@ -101,6 +105,10 @@ Every parameter, scenario, and product claim must answer that one question. If i
 - Do not say "best", "only answer", "perfect", "100% safe", or "guaranteed approval".
 - Do not invent G550/Q235B decisions, wall thickness, glass-wool thickness, wind/seismic ratings, fire ratings, install time, cost, or production capacity.
 - Do not claim Saudi regulations force a specific material unless sourced.
+- Do not say "规范要求" without naming the relevant code, owner requirement, drawing requirement, or calculation boundary. For light steel, distinguish SBC 308/309/301/306/303 when relevant; if not verified, say "按项目图纸和结构计算确认".
+- Do not write "清关资料" for Saudi local factory/local manufacturing/local delivery unless the script is explicitly about imported goods or cross-border procurement. Use "项目资料包、产品规格书、材料参数表、结构计算、消防资料、安装方法书、交付验收记录" instead.
+- Do not write "照搬国内现成配置" as a general market fact. If needed, frame narrowly as "刚进入沙特市场的新供应商容易按熟悉配置套用" and only with evidence or user approval.
+- Do not guarantee "15-20 years" or any lifecycle/warranty/corrosion period unless confirmed in source material; use safer long-term-use language if unresolved.
 - Do not write "local Saudi options are bad" or insult local contractors, Chinese contractors, or competitors.
 - Do not use old generic competitor stereotypes. Current market claims require current research.
 - Do not use a fire-safety compliance frame when the topic is actually insulation, structure, delivery, or usage scenario.

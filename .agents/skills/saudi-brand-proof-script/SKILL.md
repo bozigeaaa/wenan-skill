@@ -21,6 +21,7 @@ Create brand背书 scripts that prove company capability through project scenes 
 
 1. Choose one trust problem.
    - Local delivery uncertainty, cross-border communication, after-sales response, stock, installation coordination, quotation risk, or multi-product camp delivery.
+   - If the trust problem is local Saudi delivery, do not automatically mention customs clearance. Customs documents belong to import/cross-border procurement; local delivery should focus on project documents, delivery notes, installation coordination, and handover records.
 
 2. Translate it into a project scene.
    - Read `references/proof-pattern.md`.

@@ -7,6 +7,7 @@ Verify before stating:
 - Saudi policy, agency, platform, or regulation names.
 - SBC, Civil Defense, Salamah, SABER/SASO, ZATCA, customs, LCGPA, IKTVA, PIF Musahama claims.
 - Approval outcomes, rejection reasons, enforcement actions, fines, timelines, required documents.
+- Whether a document package applies to local Saudi delivery, local manufacturing, imported goods, or cross-border procurement.
 - "Must", "mandatory", "all projects", "system directly rejects", or similar absolute claims.
 
 ## Safe Framing
@@ -15,6 +16,7 @@ Verify before stating:
 - "这类要求不能泛化到所有项目。"
 - "如果是政府、国企、PIF 或 Aramco 体系，供应链逻辑会更复杂。"
 - "具体结论要回到合同、图纸、业主要求和当地审批口径。"
+- "清关资料是进口/跨境采购口径；本地工厂交付更常见的是项目资料包、规格书、材料参数、安装方法书和交付记录。"
 
 ## Product Boundary
 

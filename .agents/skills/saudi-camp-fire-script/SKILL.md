@@ -48,6 +48,7 @@ Read `references/fire-topic-library.md` when choosing or splitting topics.
 1. Identify the single point.
    - Rewrite broad topics into one precise question: "Which SBC 801 / Civil Defense requirement is this video proving?"
    - If the user gives multiple points, split them into a series and write only the first requested point.
+   - Keep the title, opening, compliance explanation, product landing, and ending on that same fire-safety point.
 
 2. Verify the fact level.
    - Separate confirmed facts, likely claims, and high-risk claims.
@@ -111,6 +112,8 @@ If the user only asks for a revision, keep the output shorter and include only t
 - Do not accuse the market of common fraud or malicious material substitution unless the user provides evidence.
 - Do not force a "low-end competitor exposure" paragraph when there is no evidence. Reframe it as "低价方案常见断点" or "容易被忽略的配置缺口".
 - Do not write "only standard answer" literally. Use "按这套规范逻辑倒推出来的解决方案" unless the user explicitly wants a stronger advertising stance.
+- Do not write "清关资料" as part of a fire approval package unless the topic is imported goods or cross-border procurement. For local delivery or local manufacturing, use "消防资料、产品规格书、材料性能资料、结构图纸/计算、BOQ、安装方法书、交付验收记录".
+- Do not say "规范要求" without naming the relevant code/approval path or explaining whether it is a Civil Defense, SBC 801, owner, consultant, or drawing requirement.
 - Do not use "普通填充" without explaining what it means and why it matters.
 - Do not say professionals "only ask whether the material is fireproof"; instead, acknowledge that formal projects generally know fire-rated materials matter, then move to the deeper requirement.
 - Do not compare by insulting Saudi local contractors, Chinese contractors, or competitors.

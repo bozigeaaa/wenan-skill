@@ -66,6 +66,10 @@ Default pressure subjects:
 
 Do not write workers as the main active complaint or strike subject unless the user provides a real case. Workers may be direct users, but the business pressure usually lands on managers and procurement.
 
+## Local Perspective Rule
+
+Default to a Saudi local supplier / project delivery perspective. Do not unnecessarily frame the product as "from China", "sent from China", or "domestic configuration". If the issue is local delivery, discuss deployment, maintenance, cleaning, spare parts, and project responsibility in Saudi terms.
+
 ## Workflow
 
 1. Identify the single point.
@@ -114,6 +118,7 @@ Do not write workers as the main active complaint or strike subject unless the u
 - Do not write workers as collectively striking, protesting, or actively forcing project shutdown unless there is a real case.
 - Do not invent Saudi policy names, legal requirements, fine amounts, inspection outcomes, or compliance guarantees.
 - Do not say "guaranteed inspection pass", "100% odorless", "zero maintenance", or "permanent anti-corrosion".
+- Do not use absolute maintenance claims such as "根本不给污垢留死角", "不会返臭", or "不锈不腐" unless the exact performance claim is verified. Prefer "减少清洁死角", "降低返味风险", "便于后期维护".
 - Do not invent K-series model parameters, dimensions, packing sizes, install time, price, material, or capacity.
 - Do not write "local Saudi options are bad" or insult local contractors, Chinese contractors, or competitors.
 - Do not use old generic competitor stereotypes. Current market claims require current research.

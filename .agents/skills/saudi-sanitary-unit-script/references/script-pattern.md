@@ -77,6 +77,7 @@ Choose one ending style:
 - Comment prompt: "你们营地卫生间最头疼的是异味、清洁，还是后期维修？评论区说一个，我按现场逻辑拆。"
 - Topic request: "下一期你们想听 K 系列型号怎么选，还是移动厕所为什么会返味？"
 - Self-check: "你可以先看一眼，你们现在的厕所，是只解决了有无，还是把排污、通风和维护都考虑进去了。"
+- Maintenance ending: "你可以先看一眼，你们现在的厕所，后期维护到底好不好做。"
 - Light brand close: "营地配套不是小事。真正稳定的项目，连卫生间这种细节都不能靠凑合。"
 
 Avoid repeating one fixed CTA.

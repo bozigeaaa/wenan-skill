@@ -5,8 +5,20 @@
 1. Start from a buyer mistake: "只看单价", "只问厚度", "只看有没有现货", "只看外观".
 2. Explain the hidden cost or project risk.
 3. Show the mechanism: logistics, maintenance, compliance, durability, coordination, or lifecycle cost.
-4. Introduce one verified product/service capability that addresses that mechanism.
+4. If the product landing gate passes, introduce one verified product/service capability that addresses that mechanism.
 5. End with a practical buyer question.
+
+If the gate does not pass, skip step 4 and end with a selection method, supplier question, or self-check prompt.
+
+## Product Landing Gate
+
+Mention Eastern Camel, TBOX, factory, stock, local delivery, `15000㎡`, or company/product capability only when:
+
+1. The user explicitly asks to connect the topic to our product/company.
+2. The topic is already product comparison, supplier selection, delivery capability, material/configuration choice, or brand proof.
+3. The company/product fact directly answers the one buyer decision pressure.
+
+Factory area and `15000㎡` only fit local manufacturing scale, production capacity, or delivery certainty. Do not use them as a generic trust line.
 
 ## Strong Angles
 

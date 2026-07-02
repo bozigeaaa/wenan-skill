@@ -11,7 +11,7 @@ Core question: "宿舍、办公室、食堂、仓库能不能用一套模板做�
 Use when explaining:
 - Different camp spaces have different fire risks.
 - Kitchen/dining, dormitory, office, warehouse, and equipment rooms should not be treated as one generic box.
-- Eastern Camel can support front-end layout and physical separation planning.
+- Optional product mapping, only if the landing gate passes: Eastern Camel can support front-end layout and physical separation planning.
 
 ### 2. Fire Separation And Fire-Resistance
 
@@ -20,7 +20,7 @@ Core question: "防火材料大家都有，界面和分隔能不能满足要求�
 Use when explaining:
 - Wall, roof, partition, door, and opening positions.
 - Fire-resistance is about the whole interface, not only a board name.
-- Eastern Camel wall/roof/door configurations can be mapped to separation needs when confirmed by project specs.
+- Optional product mapping, only if the landing gate passes: Eastern Camel wall/roof/door configurations can be mapped to separation needs when confirmed by project specs.
 
 ### 3. Firestopping At Joints And Penetrations
 
@@ -38,7 +38,7 @@ Core question: "图纸、BOQ、材料报告、现场安装能不能前后一致�
 Use when explaining:
 - The issue is not whether people say "fireproof"; it is whether documents and site reality match.
 - Good for professional trust content.
-- Product mapping should include document support and installation consistency, not only materials.
+- Optional product mapping, only if the landing gate passes: document support and installation consistency matter more than only naming materials.
 
 ### 5. Egress And Exit Path
 

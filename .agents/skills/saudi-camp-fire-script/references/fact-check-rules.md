@@ -15,6 +15,7 @@ Treat these as high-risk. Use them only when confirmed by local files, official 
 - Absolute terms: "严禁", "必须", "绝对不能", "全部", "完美对应", "不给任何死角".
 - Competitor claims: "很多厂家", "市面上普通做法", "撑不过15分钟", "根本不防火".
 - "Only standard answer" / "唯一标准答案" style claims.
+- Company/factory facts: Eastern Camel capability, local factory, local stock, delivery time, capacity, and `15000㎡` factory area.
 
 ## How To Use High-Risk Facts
 
@@ -36,6 +37,8 @@ Treat these as high-risk. Use them only when confirmed by local files, official 
 - "东方骆驼可按项目要求配置岩棉、玻璃棉等防火填充材料。"
 - "这些配置有助于让材料、构造和报审资料形成一致的交付逻辑。"
 - "东方骆驼的配置，是按这套规范逻辑倒推出来的解决方案。"
+
+Use the Eastern Camel lines only when the product/company landing gate passes. Factory area and `15000㎡` only fit local manufacturing scale, production capacity, or delivery certainty; they do not belong in pure SBC 801 / Civil Defense education, egress, fire separation, firestopping, or document-consistency scripts unless they directly answer that one point.
 
 ## Competitor / Low-End Market Comparison
 

@@ -1,6 +1,6 @@
 # Accepted Example
 
-This example was approved for quality direction. Use it as a style and structure sample, not as proof that every high-risk factual claim is verified.
+This example was approved for quality direction. Use it as a style and structure sample, not as proof that every high-risk factual claim is verified. Its Eastern Camel landing is not a default requirement; use that part only when the product/company landing gate passes.
 
 ## Why It Worked
 

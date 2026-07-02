@@ -14,6 +14,7 @@ Use these when confirmed by local sources, user confirmation, or reliable curren
 - Odor, waterproofing, anti-corrosion, anti-rust, high-temperature resistance, antibacterial, or "easy cleaning" claims.
 - Saudi labor/camp sanitation rules, inspection requirements, fines, client acceptance, or compliance outcomes.
 - Competitor names, market share, current mainstream Saudi alternatives, or product performance comparisons.
+- Company/factory facts: local factory, local stock, delivery time, capacity, and `15000㎡` factory area.
 
 ## Parameter Use
 
@@ -31,6 +32,7 @@ Examples:
 - A script about model selection may use model combinations and usage scenarios if confirmed.
 - A script about corrosion/maintenance may use 304 stainless steel or anti-corrosion details if confirmed.
 - Do not include packing size in an odor script unless the point is deployment, not smell.
+- Factory area and `15000㎡` only fit local manufacturing scale, production capacity, or delivery certainty. Do not use them in scripts about odor, drainage, ventilation, model selection, cleaning, floor material, or maintenance unless they directly answer that one point.
 
 ## Conflict Handling
 

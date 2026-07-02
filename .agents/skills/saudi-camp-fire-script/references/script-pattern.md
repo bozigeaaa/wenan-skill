@@ -34,9 +34,19 @@ Pick only 1-2 concrete rules. For each rule:
 
 Do not write vague lines like "SBC 801 is strict". Say what it checks.
 
-### 3. Brand Alignment: Reveal The Gap, Then Land The Solution
+### 3. Optional Capability Landing: Only If It Answers The Point
 
-Goal: show why Eastern Camel is designed around the requirement.
+Goal: keep pure compliance education product-free unless Eastern Camel capability directly answers the requirement.
+
+Before writing this section, apply the product/company landing gate:
+
+- Did the user explicitly ask to connect the topic to Eastern Camel, a product, delivery, or factory capability?
+- Is the topic about product selection, supplier selection, delivery capability, material configuration, or brand proof?
+- Does the company/product fact directly answer this video's one fire-safety question?
+
+If the answer is no, skip brand/product language and use a project self-check, next-topic teaser, or comment prompt instead.
+
+Do not mention local factory, factory area, or `15000㎡` unless the point is local manufacturing scale, production capacity, or delivery certainty. Factory area is not a generic trust line for fire-safety education.
 
 First, identify the ordinary low-price risk only if it is defensible:
 - "低价方案容易只讲材料名，不讲完整构造和证据链。"
@@ -49,7 +59,7 @@ Avoid unsupported accusations:
 - "撑不过15分钟"
 - "大批项目被拆除"
 
-Then land Eastern Camel through rule-by-rule mapping:
+If the gate passes, land Eastern Camel through rule-by-rule mapping:
 - Risk zoning -> front-end planning and physical separation of kitchen, dormitory, office, warehouse.
 - Fire separation -> wall/roof/door configuration matched to project requirements.
 - Firestopping -> seam, joint, cable penetration, pipe penetration treatment when confirmed.
@@ -80,7 +90,7 @@ Choose one closing style based on the script:
 - "你可以先回去看一眼，你们图纸、BOQ 和现场做法是不是能对上。对不上，问题通常就从这里开始。"
 - "别急着问材料名，先问这套配置能不能把用途、风险和现场证据链说清楚。"
 
-5. **Light brand close**: use sparingly when the script has clearly landed Eastern Camel's capability.
+5. **Light brand close**: use sparingly when the script has clearly landed Eastern Camel's capability and the landing gate passes.
 - "东方骆驼做沙特营地，真正想解决的不是一句防火材料，而是把消防逻辑从图纸落到现场。"
 - "出海建营地，别只听材料名。把规范逻辑讲清楚，项目才稳。"
 

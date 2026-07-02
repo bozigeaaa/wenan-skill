@@ -9,6 +9,14 @@ Use a parameter only when:
 
 Do not include a true parameter just because it sounds impressive.
 
+## Company And Factory Facts
+
+Use company facts only when they directly answer the script's one buyer decision pressure.
+
+- Factory area and `15000㎡` are only relevant to local manufacturing scale, production capacity, or delivery certainty.
+- Do not use factory area as a generic trust line for maintenance, compliance, hygiene, material logic, or general procurement-risk topics.
+- Local factory, local stock, local delivery, Chinese coordination, and after-sales response must each answer the current decision pressure; otherwise leave them out.
+
 ## Competitor Claims
 
 Browse current sources before mentioning:

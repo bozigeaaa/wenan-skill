@@ -1,6 +1,6 @@
 ---
 name: saudi-camp-fire-script
-description: Generate or revise Chinese short-video口播 scripts for Saudi self-built camps, temporary camps, prefab houses, modular houses, and site accommodation when the topic involves fire safety, SBC 801, Civil Defense, Salamah, fire-resistance, fire separation, egress, alarm/firefighting systems, fire-rated materials, or fire inspection. Use this skill when the user wants a professional B2B script that explains one Saudi camp fire-safety requirement, connects it to Eastern Camel product/ delivery capabilities, and avoids fake, vague, or overbroad fire-safety claims.
+description: Use when generating or revising Chinese short-video口播 scripts for Saudi self-built camps, temporary camps, prefab houses, modular houses, and site accommodation when the topic involves fire safety, SBC 801, Civil Defense, Salamah, fire-resistance, fire separation, egress, alarm/firefighting systems, fire-rated materials, or fire inspection.
 ---
 
 # Saudi Camp Fire Script
@@ -9,7 +9,7 @@ description: Generate or revise Chinese short-video口播 scripts for Saudi self
 
 Create professional Chinese short-video口播 scripts for Saudi camp fire-safety topics. The target audience is industry professionals: Chinese EPC/general contractor project managers, procurement teams, and camp operators working in Saudi Arabia.
 
-The script must feel like practical expert knowledge, not a generic advertisement. It must use consultant-style compliance marketing: raise the professional threshold through one concrete SBC 801 / Civil Defense requirement, then land Eastern Camel's product or delivery capability as the corresponding solution.
+The script must feel like practical expert knowledge, not a generic advertisement. It should explain one concrete SBC 801 / Civil Defense requirement first. Land Eastern Camel product, delivery, or factory capability only when the user asks for it or when that capability directly answers the script's one fire-safety point.
 
 ## Required Local Sources
 
@@ -23,7 +23,7 @@ For Saudi fire-safety topics, prioritize these source files:
 - `钧瀚产品优势分级分类总表_v4.xlsx` for advantages, conflict records, and information reliability.
 - `拼装房屋产品介绍.txt` for prefab house / packing house product facts.
 - `薄壁轻钢房屋产品介绍.txt` when the requested topic is light steel housing.
-- `东方骆驼公司简介.txt` and `深圳钧瀚科技有限公司企业基础概况.docx` for company positioning and delivery capability.
+- `东方骆驼公司简介.txt` and `深圳钧瀚科技有限公司企业基础概况.docx` only when the script passes the product/company landing gate below.
 
 If a requested fact is not in the local sources, browse official or reliable sources before using it, or mark it as a fact slot that needs confirmation.
 
@@ -48,32 +48,41 @@ Read `references/fire-topic-library.md` when choosing or splitting topics.
 1. Identify the single point.
    - Rewrite broad topics into one precise question: "Which SBC 801 / Civil Defense requirement is this video proving?"
    - If the user gives multiple points, split them into a series and write only the first requested point.
-   - Keep the title, opening, compliance explanation, product landing, and ending on that same fire-safety point.
+   - Keep the title, opening, compliance explanation, optional product/company landing, and ending on that same fire-safety point.
 
-2. Verify the fact level.
+2. Apply the product/company landing gate.
+   - Do not mention Eastern Camel, TBOX, factory, stock, local delivery, 15000㎡, or any product unless one of these is true:
+     1. The user explicitly asks to connect the topic to company/product capability.
+     2. The topic is product selection, supplier selection, delivery capability, material configuration, or brand proof.
+     3. The company/product fact directly answers the script's one fire-safety question.
+   - If the topic can be answered by pure compliance education or project self-check, keep it product-free.
+   - Factory area and `15000㎡` are only relevant when the point is local manufacturing scale, production capacity, or delivery certainty. Do not use them as a generic credibility close.
+
+3. Verify the fact level.
    - Separate confirmed facts, likely claims, and high-risk claims.
    - High-risk claims include exact fire-resistance minutes, temperatures, material densities, UL/ASTM numbers, "must", "prohibited", "停工拆除", "绝对不能", and competitor accusations.
    - Use only confirmed high-risk facts. Otherwise, rewrite them as safer requirement directions or mark them for confirmation.
    - Read `references/fact-check-rules.md`.
 
-3. Build the script with the four-part compliance pattern.
+4. Build the script with the four-part compliance pattern.
    - Use the structure in `references/script-pattern.md`.
    - The default skeleton is:
      1. Manufacture the crisis and break the false comfort.
      2. Pure objective code education; do not mention Eastern Camel here.
-     3. Brand alignment; map Eastern Camel capabilities to the rules.
+     3. Optional capability landing; map Eastern Camel capabilities to the rules only if the product/company landing gate passes.
      4. Closing hook; use a next-topic teaser, comment prompt, topic request, project self-check question, or light brand close.
 
-4. Keep the tone.
+5. Keep the tone.
    - Chinese口播, direct and easy to listen to.
    - Professional, concrete, and slightly sharp.
    - Avoid academic wording unless immediately translated into site language.
    - Use "先看懂", "真正卡的是", "不是看材料名字", "要能对得上" style when appropriate.
 
-5. Self-check before returning.
+6. Self-check before returning.
    - Does the script only have one main point?
    - Does it explain the specific SBC 801 / Civil Defense requirement instead of only naming the standard?
    - Does every product claim connect to that requirement?
+   - Did every company/product/factory-area mention pass the product/company landing gate?
    - If the script uses regulations, fire-resistance data, standards, test reports, product parameters, or current external facts, append a short `资料出处` footer listing only the sources actually used.
    - Are exact numbers and certifications confirmed?
    - Does it avoid writing the audience as naive?
@@ -118,6 +127,7 @@ If the user only asks for a revision, keep the output shorter and include only t
 - Do not say professionals "only ask whether the material is fireproof"; instead, acknowledge that formal projects generally know fire-rated materials matter, then move to the deeper requirement.
 - Do not compare by insulting Saudi local contractors, Chinese contractors, or competitors.
 - Do not write a broad checklist unless the user explicitly asks for a series overview.
+- Do not use Eastern Camel, local factory, or `15000㎡` as a default ending. Use them only when they directly answer this script's one point.
 - Do not force the ending "关注东方骆驼，出海建营地，我们陪你把消防逻辑讲清楚。"; vary the close based on the topic and audience action.
 
 ## Reference Files

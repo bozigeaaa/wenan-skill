@@ -19,6 +19,18 @@ Use this as the general product-seeding skill. If the product topic is specifica
 
 Use this skill for cross-product, general procurement, supplier selection, local delivery, logistics cost, after-sales, and "why this type of solution is worth considering" topics.
 
+## Product Landing Gate
+
+Before mentioning Eastern Camel, TBOX, factory, stock, local delivery, `15000㎡`, or any specific company/product capability, ask:
+
+1. Did the user explicitly ask to connect the topic to our product/company?
+2. Is the topic already about product comparison, supplier selection, delivery capability, material/configuration choice, or brand proof?
+3. Does this company/product fact directly answer the one buyer decision pressure?
+
+If the answer is no, keep the script as buyer education and end with a practical selection question. Do not force a company or product close.
+
+Factory area and `15000㎡` are only relevant when the point is local manufacturing scale, production capacity, or delivery certainty. Do not use them for unrelated topics such as maintenance, compliance, hygiene, material logic, or general procurement risk.
+
 ## Required Sources
 
 - Read `knowledge/AI资料导航索引.md`.
@@ -40,8 +52,9 @@ Use this skill for cross-product, general procurement, supplier selection, local
    - Read `references/fact-rules.md`.
    - Every parameter must answer this script's one decision pressure.
 
-4. Land the product naturally.
+4. Land the product naturally only if the product landing gate passes.
    - Product appears as the practical answer to the risk, not as an inserted ad.
+   - If the gate does not pass, give the buyer a selection method and stop there.
 
 5. Output the complete script by default.
    - If the script uses specifications, company/product parameters, price/cost claims, current market facts, competitor comparisons, logistics quantities, delivery capabilities, or other external facts, append a short `资料出处` footer listing only the sources actually used.

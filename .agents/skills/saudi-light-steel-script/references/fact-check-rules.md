@@ -16,6 +16,7 @@ Use these when confirmed by local sources, user confirmation, or reliable curren
 - Saudi code, approval, Civil Defense, SABER/SASO, or any mandatory requirement.
 - Customs clearance documents or import compliance documents, unless the script is specifically about imported goods/cross-border procurement.
 - Competitor names, market share, current mainstream Saudi alternatives, or product performance comparisons.
+- Company/factory facts: local factory, local stock, delivery time, capacity, and `15000㎡` factory area.
 
 ## Parameter Use
 
@@ -32,6 +33,7 @@ Examples:
 - A script about delivery speed should not use glass wool thickness unless it affects delivery.
 - A script about long-term camp comfort may mention envelope system and AC load, but should not become a full material catalog.
 - A script about wind/sand should focus on sealing, joints, doors/windows, and site environment; do not over-expand into fire or seismic unless requested.
+- Factory area and `15000㎡` only fit local manufacturing scale, production capacity, or delivery certainty. Do not use them in scripts about steel grade, wall system, insulation, fire direction, wind/sand, or maintenance unless they directly answer that one point.
 
 ## Conflict Handling
 

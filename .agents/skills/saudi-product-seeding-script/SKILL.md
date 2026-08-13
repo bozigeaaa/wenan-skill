@@ -59,6 +59,11 @@ Factory area and `15000㎡` are only relevant when the point is local manufactur
 5. Output the complete script by default.
    - If the script uses specifications, company/product parameters, price/cost claims, current market facts, competitor comparisons, logistics quantities, delivery capabilities, or other external facts, append a short `资料出处` footer listing only the sources actually used.
 
+6. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Make the title, opening, wrong-choice cost, verified mechanism, optional product landing, and ending answer one buyer decision pressure.
+   - Do not convert a conditional risk reduction into a guarantee, exaggerated loss, or competitor accusation for stronger conversion.
+
 ## Tone
 
 Professional, practical, buyer-aware. More persuasive than科普, but never cheap-sales, insulting, or exaggerated.
@@ -67,3 +72,4 @@ Professional, practical, buyer-aware. More persuasive than科普, but never chea
 
 - `references/seeding-pattern.md`: product种草 structure and conversion-safe endings.
 - `references/fact-rules.md`: product fact and competitor comparison boundaries.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.

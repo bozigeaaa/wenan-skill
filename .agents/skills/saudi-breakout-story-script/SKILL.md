@@ -41,6 +41,11 @@ Before writing:
 5. Output the complete script by default.
    - If the script uses current news, policy, prices, market changes, regulations, or other factual claims that required browsing or local source verification, append a short `资料出处` footer listing only those sources.
 
+6. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Keep audience curiosity subordinate to the verified story spine; do not invent a universal local behavior, project consequence, or cultural conflict for the hook.
+   - When the story touches industry work, keep its title, opening, observation, and ending on one real audience question.
+
 ## Tone
 
 Curious, vivid, grounded, and human. It can be sharper and more entertaining than product scripts, but must not mock Saudi people, local religion, local suppliers, workers, or Chinese contractors.
@@ -49,3 +54,4 @@ Curious, vivid, grounded, and human. It can be sharper and more entertaining tha
 
 - `references/story-pattern.md`: breakout story structure and opening patterns.
 - `references/fact-boundaries.md`: current-news, anecdote, and culture-safety boundaries.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.

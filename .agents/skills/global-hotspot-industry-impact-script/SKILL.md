@@ -37,6 +37,8 @@ Also inspect project sources when industry framing is needed:
 
 1. Verify the hotspot.
    - Read `references/hotspot-sourcing.md`.
+   - Read `references/hotspot-ledger.md` and `content-state/hotspot-ledger.json` before looking for a topic.
+   - Treat search results only as candidates. Open or scrape the original source before confirming its date, actor, status, and source link.
    - Confirm what happened, where, when, and what is still uncertain.
    - Never treat rumor, social media speculation, or one sensational headline as fact.
 
@@ -50,20 +52,33 @@ Also inspect project sources when industry framing is needed:
 
 4. Finalize the title.
    - Read `references/title-selection.md`.
+   - When the hotspot is about shipping, ports, imports, cross-border procurement, or delivery responsibility, read `.agents/skills/references/local-manufacturing-delivery-proof.md` before choosing the title.
    - Generate 3 candidate titles internally and choose the safest, clearest one.
    - Title must include a hotspot hook, an industry relationship, and no exaggerated consequence.
 
 5. Write or route the script.
    - Read `references/script-pattern.md`.
+   - For Saudi construction, urban development, infrastructure, industrial-city, transport, logistics, or project news, read `.agents/skills/references/b2b-topic-conversion-loop.md` before selecting the script angle. Record the project stage and reject any product link that is not naturally supported by a site-support, delivery, or operation question.
    - If the output is pure industry impact, write directly.
    - If it becomes a Saudi story angle, route to `$saudi-breakout-story-script`.
    - If it becomes professional科普, route to `$saudi-professional-knowledge-script`.
-   - If user explicitly asks to bring product, route to `$saudi-product-seeding-script` or the relevant product skill.
+   - If user explicitly asks to bring product, or explicitly selects the marketing account, route to `$saudi-product-seeding-script` or the relevant product skill. A company mention remains optional unless its evidence-backed capability directly continues the same customer question.
 
-6. Output rules.
+6. Prevent repetition and downgrade stale news.
+   - Before drafting, use the ledger to check whether the same event or angle has already been used.
+   - A 0-7 day event may be a current hotspot only after status verification. An 8-30 day event needs a material ongoing development. News older than 30 days must be treated as background, not recent news.
+   - If no eligible hotspot remains, route in this order: verified official project/policy/logistics signal -> evergreen decision topic -> local-manufacturing proof topic supported by company materials.
+   - Do not force a news script just because the user asks for a hotspot.
+
+7. Output rules.
    - Default output the final script with a short `资料出处` footer because hotspot scripts always rely on current external facts.
    - If user asks "先给选题", output 3-5 hotspot topic options with title, one impact point, and risk notes.
    - Cite only sources used for the selected hotspot facts and the industry-impact chain; include source name, publication/access date when available, and link.
+
+8. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Keep the verified hotspot and its one concrete industry impact above title appeal or urgency.
+   - Check that the title, opening, impact chain, and ending answer the same procurement, delivery, camp-operation, or project-management question.
 
 ## Hard Boundaries
 
@@ -80,3 +95,8 @@ Also inspect project sources when industry framing is needed:
 - `references/impact-filter.md`: one-point industry impact filter and scoring.
 - `references/title-selection.md`: title drafting and finalization rules.
 - `references/script-pattern.md`: script structure, routing, and example using Strait of Hormuz.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.
+- `.agents/skills/references/local-manufacturing-delivery-proof.md`: conditional local manufacturing and delivery-responsibility differentiation rule.
+- `references/hotspot-ledger.md`: candidate discovery, original-source verification, freshness, deduplication, and monitor boundaries.
+- `content-state/hotspot-ledger.json`: shared local event and usage ledger; read before drafting and update after a script is finalized.
+- `.agents/skills/references/b2b-topic-conversion-loop.md`: construction-news classification, temporary-facility relevance gate, account routing, evidence bridge, and post-publication review fields.

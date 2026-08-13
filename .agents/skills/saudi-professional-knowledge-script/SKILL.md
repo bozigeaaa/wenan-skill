@@ -1,6 +1,6 @@
 ---
 name: saudi-professional-knowledge-script
-description: Use when generating or revising Chinese B2B short-video口播 scripts that explain Saudi temporary construction, camp approval, supply chain, compliance, materials, engineering boundaries, logistics, customs, local content, or project-management knowledge. Default to pure professional education and do not include products unless the user asks.
+description: Use when generating, diagnosing, or revising Chinese B2B short-video口播 scripts about Saudi temporary construction, camp approval, collective housing, supply chains, compliance, materials, engineering boundaries, logistics, customs, local content, or project management. Verify the title premise and exact engineering scenario before drafting, keep every paragraph on the title's one customer question, and default to pure professional education without products unless the user asks.
 ---
 
 # Saudi Professional Knowledge Script
@@ -26,29 +26,58 @@ Use this as the general professional科普 skill. If the topic is specifically a
 
 ## Workflow
 
-1. Turn the topic into one mechanism-level question.
-   - Example: "Why can't every camp use one universal layout?"
-   - Example: "When does local content matter, and when is it being overgeneralized?"
+1. Run the title-premise gate before drafting.
+   - Identify the title's exact subject, factual premise, customer concern, and one answer the viewer should retain.
+   - Verify whether the premise matches the real engineering or approval process. Do not manufacture a late application, missing handoff, rework, rejection, extra cost, or other conflict merely to make the title dramatic.
+   - If the premise is false, uncommon, or not supported, stop and explain why; recommend a fact-based angle instead of forcing a script.
+   - Do not change a user-confirmed title unless the user authorizes it.
+   - If the user says "先检查", "先分析", "先确认", "先判断标题", or otherwise asks for validation before generation, output only the diagnosis, recommended core conclusion, and proposed reasoning path. Do not write the script in the same turn, even when the title is viable; wait for explicit confirmation.
 
-2. Verify facts.
+2. Lock the exact scenario and boundaries.
+   - Distinguish fixed residential buildings, residential compounds, project mobile cabins, and other temporary facilities.
+   - Distinguish applicant/responsible-party identity, property or site-use relationship, product ownership, approval requirements, application documents, inspection items, and operating conditions. These are different concepts; never merge them for convenience.
+   - Distinguish local manufacture/local delivery from imported or cross-border supply.
+   - Do not transfer a rule from one scenario to another without an official or primary source that explicitly supports the transfer.
+   - A general service page may cover multiple facility categories. Do not repeat its generic ownership/lease checklist in a mobile-cabin script unless the source explicitly states that the item applies to mobile cabins or the title directly asks about that document.
+
+3. Verify facts to the depth needed by the title.
    - Read `references/fact-rules.md`.
-   - Exact regulation names, agency roles, approval outcomes, fines, and public program claims must be verified.
+   - Use an official service summary only as a routing source. If it says only "health, technical, and safety requirements," follow the linked official guide and extract concrete, relevant checks before using that phrase as the script's value.
+   - Exact regulation names, thresholds, agency roles, approval outcomes, fines, timelines, documents, inspection items, and responsible parties must be verified.
+   - Internally map every factual sentence to a source. If a sentence is only inference, either remove it or clearly narrow it; do not use inference to fill runtime.
 
-3. Build a professional explanation.
+4. Build around one customer question.
    - Read `references/script-pattern.md`.
-   - Explain what most people misunderstand, what the real boundary is, and what project teams should check.
+   - Choose the structure from the problem: mechanism, comparison, sequence, decision rule, or checklist. Do not automatically use "first, second, third."
+   - Keep only content that directly answers the title. Documents, responsibility, process, products, or consequences may appear only when they are part of that answer.
+   - Translate necessary technical terms into plain spoken Chinese immediately. Give the viewer a concrete judgment, check, or action rather than abstract words.
 
-4. Keep it pure科普 by default.
-   - Do not add 东方骆驼 or product capabilities unless the user asks.
+5. Apply the product boundary.
+   - Keep the script pure科普 by default.
+   - For a topic originating from construction, infrastructure, urban-development, transport, logistics, industrial-city, or project news, read `.agents/skills/references/b2b-topic-conversion-loop.md` before choosing an angle or company mention.
+   - Do not add 东方骆驼 or product capabilities unless the user asks or the capability is the natural evidence-based answer to the title. When a company capability appears, use the evidence-bridge boundary and source ledger in that rule.
 
-5. Output the complete script by default.
+6. Re-audit the whole draft after every substantive revision.
+   - Do not patch only the sentence the user flagged. Re-read the title, opening, every transition, conclusion, and interaction prompt as one chain.
+   - Remove new repetition, concept switching, scene mixing, unsupported implications, and endings that introduce a different topic.
+   - Expand runtime only by deepening verified content that answers the title; never add adjacent facts or invented project behavior to reach a target length.
+
+7. Output the complete script by default.
+   - When the user asks for a revision, return the full revised version rather than an isolated replacement unless they explicitly request one sentence only.
    - If the script uses regulations, official programs, policy facts, approval requirements, specifications, company/product facts, or current external facts, append a short `资料出处` footer listing only the sources actually used.
+
+8. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Keep the verified title conclusion above hook appeal. Confirm that the title, opening, scenario boundary, explanation, optional product landing, and ending answer the same customer question.
+   - Do not make an approval, document, responsibility, or inspection hook sound universal or more consequential than the evidence supports.
 
 ## Tone
 
-Calm, expert, grounded, and practical. Avoid "内幕", "惊天", or exaggerated fear. The value is clarity.
+Calm, expert, grounded, practical, and conversational. Write from the customer's real decision context, not from the supplier's or narrator's superior position. Avoid "内幕", "惊天", official brochure language, robotic summaries, and exaggerated fear. The value is verified clarity and usable judgment.
 
 ## Reference Files
 
 - `references/script-pattern.md`: professional科普 structure.
 - `references/fact-rules.md`: policy, compliance, and engineering fact boundaries.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.
+- `.agents/skills/references/b2b-topic-conversion-loop.md`: construction-news relevance gate, education/marketing account routing, evidence-bridge and review rules.

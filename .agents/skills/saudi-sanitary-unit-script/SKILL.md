@@ -102,6 +102,11 @@ Default to a Saudi local supplier / project delivery perspective. Do not unneces
    - When the script uses regulations, specifications, K-series/TBOX parameters, material data, container-loading facts, competitor/current-market facts, or other external facts, append a short `资料出处` footer listing only the sources actually used.
    - Do not show self-check or risk notes unless the user asks.
 
+6. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Confirm that the title, opening, sanitary mechanism, Saudi project pressure scene, optional product landing, and ending answer the same verified decision question.
+   - Do not use odor, maintenance, inspection, or worker-pressure language to imply unverified complaints, stoppages, fines, or guarantees.
+
 ## Tone
 
 - Direct, grounded, and slightly serious.
@@ -127,3 +132,4 @@ Default to a Saudi local supplier / project delivery perspective. Do not unneces
 
 - `references/script-pattern.md`: structure and language patterns for sanitary-unit single-point scripts.
 - `references/fact-check-rules.md`: model, parameter, compliance, competitor, and high-risk claim handling.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.

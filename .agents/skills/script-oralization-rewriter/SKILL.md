@@ -45,7 +45,14 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
    - B2B口播 can be sharp, but should not become vulgar, exaggerated, or fake outrage.
    - Use contrast, questions, and scenario logic instead of shouting.
 
-5. Output only the rewritten script by default.
+5. Run the professional B2B quality gate.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Read `.agents/skills/references/b2b-humanizer-expression-gate.md` and run its reinforced expression audit because the user explicitly requested an oralization rewrite.
+   - Check the source draft and rewrite keep the same title question, decision value, mechanism, product implication, and ending.
+   - Remove AI-sounding repetition, brochure slogans, mechanical lists, and abrupt sales turns only when doing so does not remove or alter a verified fact.
+   - Do not use a more vivid hook, emotional pressure, or conversational phrasing to intensify a locked fact or imply an unsupported consequence.
+
+6. Output only the rewritten script by default.
    - Preserve any existing `资料出处` footer from the source draft when the rewritten script still uses those facts.
    - Follow project `AGENTS.md`: no visible diagnosis or self-check unless the user asks.
 
@@ -69,3 +76,5 @@ Avoid:
 
 - `references/oralization-patterns.md`: practical口语化 rewrite patterns, before/after examples, and rhythm controls.
 - `references/fact-safety.md`: fact-preservation rules and unsafe amplification examples.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.
+- `.agents/skills/references/b2b-humanizer-expression-gate.md`: shared final expression audit for AI-writing patterns and spoken rhythm.

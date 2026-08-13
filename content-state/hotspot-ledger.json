@@ -1,0 +1,145 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-13",
+  "update_owner": "Codex",
+  "events": [
+    {
+      "event_id": "mawani-jeddah-logistics-centres-2026-07-18",
+      "event_name": "Mawani 在吉达伊斯兰港和 Al-Khumra 物流区签署物流中心建设与扩建合同",
+      "event_date": "2026-07-18",
+      "last_material_update_date": "2026-07-18",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-07-18",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/fa/N2636577",
+          "verified_fact": "Mawani 签署七份合同，在吉达伊斯兰港和 Al-Khumra 物流区建设及扩建物流中心；公告披露相关设施用于仓储、集拼和再出口。"
+        }
+      ],
+      "relevance": "港口物流中心扩建信号 → 项目方可复核从港口到仓储、配送和现场交付的责任接口；不推断任何具体临建项目已获益或交期已缩短。",
+      "sensitivity": "normal",
+      "content_type": "project_logistics_signal",
+      "recommended_angle": "港口物流中心扩建，对临建项目真正要复核的不是新闻里的投资额，而是货到港后谁负责仓储、配送和现场安装衔接。",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日 26 天；可作为近一个月项目信号稿，标题不得写成当天突发热点。"
+    },
+    {
+      "event_id": "jazan-seawater-cooling-2026-07-14",
+      "event_name": "Jazan 初级及转化产业城海水冷却项目一期进度公告",
+      "event_date": "2026-07-14",
+      "last_material_update_date": "2026-07-14",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency",
+          "source_level": "A",
+          "publication_date": "2026-07-14",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2634167",
+          "verified_fact": "SPA 报道 Jazan 初级及转化产业城海水冷却项目一期完成度为 98.33%。"
+        }
+      ],
+      "relevance": "工业园基础设施推进信号 → 可讨论工业项目进入设备、营地、临建和服务配套规划前，采购方应先核对项目阶段与现场需求；不推断该项目需要本公司产品或即将进场。",
+      "sensitivity": "normal",
+      "content_type": "project_signal",
+      "recommended_angle": "工业项目宣布接近完工时，临建采购不能只看项目总进度：先确认接下来是施工收尾、调试还是运营配套阶段。",
+      "used_angles": [
+        {
+          "used_at": "2026-08-13",
+          "script_type": "professional_education",
+          "title": "项目接近完工，临建还该怎么判断？",
+          "angle": "项目进度接近完成时，先区分施工收尾、调试还是运营配套，再判断临建需求。",
+          "status": "drafted"
+        }
+      ],
+      "use_count": 1,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日 30 天；可作为项目进度信号稿，必须写明“7 月公告”或具体日期，不能称为当前热点。"
+    },
+    {
+      "event_id": "knowledge-economic-city-schools-contract-2026-07-12",
+      "event_name": "Knowledge Economic City 与 ASTRA Construction 签署 Riyadh Schools Complex 合同",
+      "event_date": "2026-07-12",
+      "last_material_update_date": "2026-07-12",
+      "status": "active",
+      "source_records": [
+        {
+          "source_name": "Saudi Exchange / Knowledge Economic City",
+          "source_level": "A",
+          "publication_date": "2026-07-12",
+          "verified_at": "2026-08-13",
+          "url": "https://www.saudiexchange.sa/wps/portal/saudiexchange/newsandreports/issuer-news/issuer-announcements/issuer-announcements-details/?anCat=91&anId=96735&cs=4310&locale=en",
+          "verified_fact": "Knowledge Economic City 披露其与 Astra Construction 签署 Riyadh Schools Complex 建筑、机电和外部工程合同。"
+        }
+      ],
+      "relevance": "正式合同信号 → 可用于解释项目方在合同落地后应拆分哪些临建/配套需求与责任节点；不根据合同本身推断现场已开工、工地人数或临建采购量。",
+      "sensitivity": "normal",
+      "content_type": "project_signal",
+      "recommended_angle": "项目合同一签，不代表临建需求已经能直接报价：先把施工期、临设用途、安装窗口和交付责任拆开。",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 1,
+      "write_eligibility": "eligible",
+      "freshness_note": "距核验日超过 30 天；保留为项目背景/常青决策稿线索，不得包装为近期新闻。"
+    },
+    {
+      "event_id": "mawani-shipping-services-2026-03-22",
+      "event_name": "Mawani 在霍尔木兹紧张期间新增五项海运服务",
+      "event_date": "2026-03-22",
+      "last_material_update_date": "2026-03-22",
+      "status": "background",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-03-22",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2544115",
+          "verified_fact": "Mawani 公告称，在当时霍尔木兹紧张背景下新增五项海运服务。"
+        }
+      ],
+      "relevance": "历史物流应对案例 → 只可作为“项目物流预案应拆分港口、航线、仓储与现场交付责任”的背景，不可证明当前航运状态。",
+      "sensitivity": "high",
+      "content_type": "evergreen_background",
+      "recommended_angle": "不单独成稿；如有新的权威航运事件，可作为背景材料辅助解释项目方为何要检查本地交付链。",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 0,
+      "write_eligibility": "downgraded",
+      "freshness_note": "超过 30 天，且涉及敏感航运局势；不得称为近期热点。"
+    },
+    {
+      "event_id": "mawani-logistics-corridors-2026-03-12",
+      "event_name": "Mawani 与 ZATCA 启动西海岸港口物流走廊倡议",
+      "event_date": "2026-03-12",
+      "last_material_update_date": "2026-03-12",
+      "status": "background",
+      "source_records": [
+        {
+          "source_name": "Saudi Press Agency / Mawani",
+          "source_level": "A",
+          "publication_date": "2026-03-12",
+          "verified_at": "2026-08-13",
+          "url": "https://www.spa.gov.sa/en/N2534501",
+          "verified_fact": "Mawani 与 ZATCA 启动物流走廊倡议，目标之一是接收从东部地区及 GCC 港口改道至吉达伊斯兰港等红海港口的集装箱和货物。"
+        }
+      ],
+      "relevance": "历史物流机制信号 → 可作港口到现场并非同一交付节点的背景；不得推断当前货物正在改道或任一项目已经受影响。",
+      "sensitivity": "normal",
+      "content_type": "evergreen_background",
+      "recommended_angle": "不单独成稿；可在港口物流科普中作为已发生的机制示例，并明确其时间为 2026 年 3 月。",
+      "used_angles": [],
+      "use_count": 0,
+      "max_use_count": 0,
+      "write_eligibility": "downgraded",
+      "freshness_note": "超过 30 天；只作背景，不能写成当前物流状态。"
+    }
+  ]
+}

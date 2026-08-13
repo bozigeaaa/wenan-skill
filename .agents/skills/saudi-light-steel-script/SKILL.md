@@ -88,6 +88,11 @@ Every parameter, scenario, and product claim must answer that one question. If i
    - When the script uses regulations, specifications, company/product parameters, material data, competitor/current-market facts, or other external facts, append a short `资料出处` footer listing only the sources actually used.
    - Do not show self-check or risk notes unless the user asks.
 
+6. Run the professional B2B quality gate before finalizing.
+   - Read `.agents/skills/references/b2b-content-quality-gate.md`.
+   - Confirm that the title, opening, mechanism, Saudi project scene, optional product landing, and ending answer the same verified light-steel selection question.
+   - Do not use a hook to imply unverified structural, fire, approval, cost, or market consequences.
+
 ## Tone
 
 - Professional, direct, and grounded.
@@ -117,3 +122,4 @@ Every parameter, scenario, and product claim must answer that one question. If i
 
 - `references/script-pattern.md`: structure and language patterns for light-steel single-point scripts.
 - `references/fact-check-rules.md`: parameter, competitor, and high-risk claim handling.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.

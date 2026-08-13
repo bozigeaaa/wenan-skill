@@ -1,0 +1,5 @@
+﻿.tmp/
+Script-Copy-Skills/
+node_modules/
+**pycache**/
+*.pyc

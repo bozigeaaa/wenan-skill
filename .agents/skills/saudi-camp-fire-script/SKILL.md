@@ -88,6 +88,8 @@ Read `references/fire-topic-library.md` when choosing or splitting topics.
    - Does it avoid writing the audience as naive?
    - Does it avoid invented competitor wrongdoing?
    - Does the ending avoid repeating one fixed slogan and instead match the script's purpose?
+   - Read `.agents/skills/references/b2b-content-quality-gate.md` and confirm that the title, opening, code explanation, optional product landing, and close answer the same verified fire-safety question.
+   - Confirm that any hook describes a verified decision, inspection, or configuration boundary rather than an unsupported stop-work, fine, rectification, or approval outcome.
 
 ## Output Format
 
@@ -136,3 +138,4 @@ If the user only asks for a revision, keep the output shorter and include only t
 - `references/fact-check-rules.md`: how to handle high-risk fire-safety facts.
 - `references/fire-topic-library.md`: single-point topic library for future scripts.
 - `references/accepted-example.md`: user-approved example. Use it as style and structure reference, not as automatically verified fact source.
+- `.agents/skills/references/b2b-content-quality-gate.md`: shared title, B2B decision-value, logic-flow, and publishing-risk gate.

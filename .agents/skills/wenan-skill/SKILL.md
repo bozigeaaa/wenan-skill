@@ -40,7 +40,7 @@ For marketing content, use one evidence-based company bridge only when it contin
 
 ## Title-Candidate Handoff
 
-When the user asks to generate titles only, generate title candidates only. Keep every candidate on the same viewer question, but choose different topic-appropriate angles internally; do not impose a fixed category set or introduce unrelated angles to fill a quota. For each candidate, give the title, the viewer question it answers, and the recommended body logic. Do not generate the script or a full handoff for every candidate.
+When the user asks to generate titles only, generate title candidates only. Within the same topic, audience, and evidence boundary, candidates may explore different true, draftable viewer questions and topic-appropriate angles; do not impose a fixed category set or introduce unrelated angles to fill a quota. For each candidate, give the title, the viewer question it answers, and the recommended body logic. Do not generate the script or a full handoff for every candidate. Lock the viewer question only after the user selects a title.
 
 After the user chooses one candidate, generate a `标题交接单` for that title only. It must include: title, account type, target audience, one core viewer question, one directly usable viewer judgment or action, scenario and fact boundaries, verified materials, company-presence choice, an evidence-backed company bridge when applicable, recommended body structure, and runtime. The separate script conversation should receive this full handoff rather than the title alone.
 

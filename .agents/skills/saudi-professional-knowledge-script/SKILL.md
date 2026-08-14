@@ -1,6 +1,6 @@
 ---
 name: saudi-professional-knowledge-script
-description: Use when generating, diagnosing, or revising Chinese B2B short-video口播 scripts about Saudi temporary construction, camp approval, collective housing, supply chains, compliance, materials, engineering boundaries, logistics, customs, local content, or project management. Verify the title premise and exact engineering scenario before drafting, keep every paragraph on the title's one customer question, and default to pure professional education without products unless the user asks.
+description: Use when generating, diagnosing, revising, or selecting titles for Chinese B2B short-video口播 scripts about Saudi temporary construction, camp approval, collective housing, supply chains, compliance, materials, engineering boundaries, logistics, customs, local content, or project management. Verify the title premise and exact engineering scenario before drafting, keep every paragraph on the title's one customer question, and only add a company bridge when it is directly relevant and evidence-backed.
 ---
 
 # Saudi Professional Knowledge Script
@@ -32,6 +32,7 @@ Use this as the general professional科普 skill. If the topic is specifically a
    - If the premise is false, uncommon, or not supported, stop and explain why; recommend a fact-based angle instead of forcing a script.
    - Do not change a user-confirmed title unless the user authorizes it.
    - If the user says "先检查", "先分析", "先确认", "先判断标题", or otherwise asks for validation before generation, output only the diagnosis, recommended core conclusion, and proposed reasoning path. Do not write the script in the same turn, even when the title is viable; wait for explicit confirmation.
+   - If the user asks for title candidates only, generate candidates only. Each candidate must retain the same core viewer question while using a topic-appropriate angle; provide its title, the question it answers, and its recommended body logic. After one candidate is selected, generate a `标题交接单` before any separate script conversation writes the body.
 
 2. Lock the exact scenario and boundaries.
    - Distinguish fixed residential buildings, residential compounds, project mobile cabins, and other temporary facilities.
@@ -51,11 +52,12 @@ Use this as the general professional科普 skill. If the topic is specifically a
    - Choose the structure from the problem: mechanism, comparison, sequence, decision rule, or checklist. Do not automatically use "first, second, third."
    - Keep only content that directly answers the title. Documents, responsibility, process, products, or consequences may appear only when they are part of that answer.
    - Translate necessary technical terms into plain spoken Chinese immediately. Give the viewer a concrete judgment, check, or action rather than abstract words.
+   - In the first one or two sentences, make the scenario and the viewer's problem clear. Every paragraph must add a necessary reason, condition, comparison, or action; remove background, repetition and anxiety that do not help the viewer decide.
 
 5. Apply the product boundary.
    - Keep the script pure科普 by default.
    - For a topic originating from construction, infrastructure, urban-development, transport, logistics, industrial-city, or project news, read `.agents/skills/references/b2b-topic-conversion-loop.md` before choosing an angle or company mention.
-   - Do not add 东方骆驼 or product capabilities unless the user asks or the capability is the natural evidence-based answer to the title. When a company capability appears, use the evidence-bridge boundary and source ledger in that rule.
+   - Do not add 东方骆驼 or product capabilities when the topic is not directly related to the company’s business, or when the evidence ledger cannot support a direct answer to the title. When both conditions are met, naturally use the evidence bridge and source ledger in that rule.
 
 6. Re-audit the whole draft after every substantive revision.
    - Do not patch only the sentence the user flagged. Re-read the title, opening, every transition, conclusion, and interaction prompt as one chain.

@@ -16,6 +16,9 @@ TOPIC_LOOP_RULES = PROJECT_ROOT / ".agents/skills/references/b2b-topic-conversio
 KNOWLEDGE_SKILL = PROJECT_ROOT / ".agents/skills/saudi-professional-knowledge-script/SKILL.md"
 WENAN_ROUTER = PROJECT_ROOT / ".agents/skills/wenan-skill/SKILL.md"
 WENAN_ROUTER_UI = PROJECT_ROOT / ".agents/skills/wenan-skill/agents/openai.yaml"
+PROJECT_RULES = PROJECT_ROOT / "AGENTS.md"
+QUALITY_GATE = PROJECT_ROOT / ".agents/skills/references/b2b-content-quality-gate.md"
+HANDOFF_DOCUMENT = PROJECT_ROOT / "docs/wenan-skill-完整交接文档_2026-08-14.md"
 
 
 def read(path: Path) -> str:
@@ -152,3 +155,30 @@ def test_wenan_skill_is_the_single_entry_router() -> None:
     assert_contains(router, "AI资料导航索引.md", "knowledge-base entry")
     assert_contains(router, "不要要求用户记忆专项 Skill 名称", "single-entry boundary")
     assert_contains(router_ui, "文案 Skill", "router display name")
+
+
+def test_title_handoff_value_brand_and_evidence_rules_are_connected() -> None:
+    project_rules = read(PROJECT_RULES)
+    router = read(WENAN_ROUTER)
+    quality_gate = read(QUALITY_GATE)
+    topic_loop = read(TOPIC_LOOP_RULES)
+
+    assert_contains(router, "只生成标题候选", "title-only workflow")
+    assert_contains(router, "标题交接单", "selected-title handoff")
+    assert_contains(quality_gate, "低认知负荷", "low-cognitive-load gate")
+    assert_contains(quality_gate, "可直接使用的判断", "immediate viewer value")
+    assert_contains(topic_loop, "主题与公司业务直接相关", "company-relevance decision")
+    assert_contains(topic_loop, "不强行提及公司", "no-forced-brand boundary")
+    assert_contains(project_rules, "无证据，不成稿", "evidence-first rule")
+
+
+def test_current_handoff_document_is_available_from_the_single_entry() -> None:
+    router = read(WENAN_ROUTER)
+
+    assert HANDOFF_DOCUMENT.exists(), "Missing current handoff document"
+    handoff = read(HANDOFF_DOCUMENT)
+
+    assert_contains(router, "docs/wenan-skill-完整交接文档_2026-08-14.md", "current handoff entry")
+    assert_contains(handoff, "标题交接单", "title handoff in current handoff document")
+    assert_contains(handoff, "低认知负荷", "viewer-value rule in current handoff document")
+    assert_contains(handoff, "无证据，不成稿", "evidence rule in current handoff document")

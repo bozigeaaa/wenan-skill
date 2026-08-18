@@ -32,7 +32,7 @@ Use this as the general professional科普 skill. If the topic is specifically a
    - If the premise is false, uncommon, or not supported, stop and explain why; recommend a fact-based angle instead of forcing a script.
    - Do not change a user-confirmed title unless the user authorizes it.
    - If the user says "先检查", "先分析", "先确认", "先判断标题", or otherwise asks for validation before generation, output only the diagnosis, recommended core conclusion, and proposed reasoning path. Do not write the script in the same turn, even when the title is viable; wait for explicit confirmation.
-   - If the user asks for title candidates only, generate candidates only. Within the same topic, audience, and evidence boundary, candidates may explore different true, draftable viewer questions and topic-appropriate angles; provide each title, the question it answers, and its recommended body logic. After one candidate is selected, lock that question and generate a `标题交接单` before any separate script conversation writes the body.
+   - If the user asks for title candidates only, generate candidates only. Within the same topic, audience, and evidence boundary, candidates may explore different true, draftable viewer questions and topic-appropriate angles; provide each title, the question it answers, its evidence-backed non-basic conclusion, and its information relationship. After one candidate is selected, lock that question and generate a `标题交接单` before any separate script conversation writes the body.
 
 2. Lock the exact scenario and boundaries.
    - Distinguish fixed residential buildings, residential compounds, project mobile cabins, and other temporary facilities.

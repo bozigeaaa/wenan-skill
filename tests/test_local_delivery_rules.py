@@ -172,6 +172,28 @@ def test_title_handoff_value_brand_and_evidence_rules_are_connected() -> None:
     assert_contains(project_rules, "无证据，不成稿", "evidence-first rule")
 
 
+def test_title_handoff_requires_a_non_basic_decision_insight_and_adaptive_structure() -> None:
+    project_rules = read(PROJECT_RULES)
+    router = read(WENAN_ROUTER)
+    quality_gate = read(QUALITY_GATE)
+    handoff = read(HANDOFF_DOCUMENT)
+
+    assert_contains(project_rules, "受众已知的基础常识", "audience knowledge floor")
+    assert_contains(project_rules, "决策张力", "decision tension")
+    assert_contains(router, "non-basic conclusion", "non-basic title insight")
+    assert_contains(quality_gate, "信息关系", "evidence-led structure selection")
+    assert_contains(quality_gate, "最近两条", "recent-structure repetition guard")
+    assert_contains(handoff, "受众已知的基础常识", "handoff knowledge floor")
+
+
+def test_handoff_document_keeps_the_copy_ready_title_prompt_contract() -> None:
+    handoff = read(HANDOFF_DOCUMENT)
+
+    assert_contains(handoff, "主题（可留空）", "blank-topic input")
+    assert_contains(handoff, "本条要让观众更新的判断", "title candidate insight output")
+    assert_contains(handoff, "我选第 X 个", "selected-title command")
+
+
 def test_current_handoff_document_is_available_from_the_single_entry() -> None:
     router = read(WENAN_ROUTER)
 

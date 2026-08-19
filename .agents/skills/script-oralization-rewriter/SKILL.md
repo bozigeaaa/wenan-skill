@@ -9,7 +9,7 @@ description: Use when revising an existing Chinese short-video script, B2B口播
 
 Rewrite an existing Chinese script into natural spoken口播. Keep the business logic, single core point, and verified facts intact; improve rhythm, sentence length, transitions, and viewer-facing energy.
 
-This is a post-processing skill. Use it after a topic/product skill has produced a draft, or when the user provides a draft and asks for "更口语化", "像真人说话", "更像短视频口播", "更有镜头感", "别太书面", or similar.
+This is a post-processing skill. 所有完整口播稿都在事实与逻辑确认后默认经过本 Skill；用户提供已有稿并要求“更口语化”, “像真人说话”, “更像短视频口播”, “更有镜头感”, “别太书面”时，同样使用。
 
 ## Core Boundary
 
@@ -41,18 +41,24 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
    - Break long sentences into camera-friendly beats.
    - Add light prompts such as "你想啊", "说白了", "问题就在这", "很多人会忽略一点" only when natural.
 
-4. Control intensity.
+4. Re-speak rather than decorate.
+   - Reorder sentences or paragraphs when that makes the same point easier to say and hear.
+   - Replace report-style explanation with a direct, viewer-facing explanation of the same verified judgment.
+   - Do not treat fillers, catchphrases, or forced rhetorical questions as oralization.
+
+5. Control intensity.
    - B2B口播 can be sharp, but should not become vulgar, exaggerated, or fake outrage.
    - Use contrast, questions, and scenario logic instead of shouting.
 
-5. Run the professional B2B quality gate.
+6. Run the professional B2B quality gate.
    - Read `.agents/skills/references/b2b-content-quality-gate.md`.
    - Read `.agents/skills/references/b2b-humanizer-expression-gate.md` and run its reinforced expression audit because the user explicitly requested an oralization rewrite.
    - Check the source draft and rewrite keep the same title question, decision value, mechanism, product implication, and ending.
    - Remove AI-sounding repetition, brochure slogans, mechanical lists, and abrupt sales turns only when doing so does not remove or alter a verified fact.
    - Do not use a more vivid hook, emotional pressure, or conversational phrasing to intensify a locked fact or imply an unsupported consequence.
+   - Compare the rewrite with the source before output: keep every material conclusion, condition, comparison, cause, scope, company boundary, and source footer semantically unchanged. If a sentence cannot be made more spoken without changing meaning, keep the source sentence.
 
-6. Output only the rewritten script by default.
+7. Output only the rewritten script by default.
    - Preserve any existing `资料出处` footer from the source draft when the rewritten script still uses those facts.
    - Follow project `AGENTS.md`: no visible diagnosis or self-check unless the user asks.
 
@@ -62,7 +68,7 @@ Aim for:
 
 - Like an experienced Saudi project-side operator explaining the issue on camera.
 - Short, speakable sentences.
-- Clear turns: problem -> why it matters -> mechanism -> product/selection implication -> ending.
+- Use the evidence-led flow that best fits the topic; do not impose a fixed body order.
 - More conversational than brochure copy, but still professional enough for B2B buyers.
 
 Avoid:

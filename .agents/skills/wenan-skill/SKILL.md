@@ -21,6 +21,7 @@ Use this as the single entry for the `Script-Copy-Skills` project. Identify the 
 | Saudi approval, compliance, material, engineering boundary, project-management or industry knowledge | `$saudi-professional-knowledge-script` |
 | Product selection, product comparison, sales conversion or product solution | `$saudi-product-seeding-script`, or the relevant fire/light-steel/sanitary specialist skill |
 | Saudi local factory, warehouse, delivery, installation, parts or company proof | `$saudi-brand-proof-script` and the company-claim evidence ledger |
+| A confirmed second-step script needs “生成分镜脚本”, storyboard, shot list, edit list, subtitle table or visual suggestions | `$digital-human-storyboard`; this route takes priority over oralization and content-generation routes |
 | Existing script needs to sound more natural, more spoken, less AI-written or less formal | `$script-oralization-rewriter` and the Humanizer expression gate |
 | A topic spans more than one row | Select one primary skill from the user’s core question; use a secondary skill only if its facts or boundaries are directly needed. Keep one script to one core question. |
 
@@ -37,6 +38,23 @@ Infer from the request when clear; otherwise ask only for information that chang
 For construction/project news, classify the project stage and apply the temporary-facility relevance gate. A project being in the construction industry is not proof that it needs the company’s products.
 
 For marketing content, use one evidence-based company bridge only when it continues the same decision question. For education content, naturally use one company bridge only when the topic is directly related to the company’s products, services, delivery or after-sales capabilities and the evidence ledger supports it; otherwise do not force a company mention. Humanizer changes expression only; it never adds facts, claims, causes, numbers, cases, or promises.
+
+For every complete script, answer the title itself rather than expand the title's broader topic. Build the first draft in spoken language from the verified conclusion and evidence; then run the reinforced oralization pass and a semantic-parity check before output. These are internal steps, not a required body template or new handoff fields.
+
+## Category-Led Topic Selection
+
+When the user asks to select a content category before titles, offer these six categories: `薄壁轻钢`、`打包箱`、`项目合规`、`项目现场与营地`、`采购、交付与项目管理`、`工程热点与新闻`. Do not create a publishing schedule unless the user asks.
+
+After the user selects a category, read the relevant knowledge sources and verify current project/news signals. Generate 6–8 broad, draftable subtopics from the category, detailed knowledge clauses, related site scenarios, verified company/product evidence where relevant, and verified current news. Do not require a pre-built subtopic library. A detailed clause may directly inspire a subtopic or title, but preserve its applicability conditions and evidence boundary.
+
+For every subtopic, label exactly one news status:
+
+- `新闻关联：有｜强关联`: a verified event's project stage, location, environment, procurement, delivery, or other fact directly explains or changes the subtopic's decision.
+- `新闻关联：无｜常青议题`: no such verified link exists; generate an evergreen topic without implying it is current news.
+
+Never use a weak-association label or connect news solely because it shares an industry, product word, or region. News may connect to any category. `工程热点与新闻` is an entry route: map the selected event to one concrete decision under one of the other five categories before generating subtopics; do not produce news-only scripts. Once the user selects a subtopic, continue with the existing title-candidate and handoff workflow. Check recent used events, angles, and conclusions to avoid repetition.
+
+For an explicit storyboard request, such as “生成分镜脚本”, use the most recent confirmed script in the same conversation. 不要求用户重复专项 Skill 名称。分镜路由优先于口语化改写、产品、新闻或标题生成，不得改写文案。用户同时要求改文案和做分镜时，先完成并确认文案，再生成分镜；多版定稿无法判断时，只简短要求用户指定版本。
 
 ## Title-Candidate Handoff
 

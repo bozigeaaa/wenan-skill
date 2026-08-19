@@ -18,7 +18,11 @@ WENAN_ROUTER = PROJECT_ROOT / ".agents/skills/wenan-skill/SKILL.md"
 WENAN_ROUTER_UI = PROJECT_ROOT / ".agents/skills/wenan-skill/agents/openai.yaml"
 PROJECT_RULES = PROJECT_ROOT / "AGENTS.md"
 QUALITY_GATE = PROJECT_ROOT / ".agents/skills/references/b2b-content-quality-gate.md"
+HUMANIZER_GATE = PROJECT_ROOT / ".agents/skills/references/b2b-humanizer-expression-gate.md"
+ORALIZATION_REWRITER = PROJECT_ROOT / ".agents/skills/script-oralization-rewriter/SKILL.md"
 HANDOFF_DOCUMENT = PROJECT_ROOT / "docs/wenan-skill-完整交接文档_2026-08-14.md"
+STORYBOARD_SKILL = PROJECT_ROOT / ".agents/skills/digital-human-storyboard/SKILL.md"
+STORYBOARD_UI = PROJECT_ROOT / ".agents/skills/digital-human-storyboard/agents/openai.yaml"
 
 
 def read(path: Path) -> str:
@@ -204,3 +208,48 @@ def test_current_handoff_document_is_available_from_the_single_entry() -> None:
     assert_contains(handoff, "标题交接单", "title handoff in current handoff document")
     assert_contains(handoff, "低认知负荷", "viewer-value rule in current handoff document")
     assert_contains(handoff, "无证据，不成稿", "evidence rule in current handoff document")
+
+
+def test_complete_scripts_keep_title_meaning_and_use_default_deep_oralization() -> None:
+    project_rules = read(PROJECT_RULES)
+    router = read(WENAN_ROUTER)
+    quality_gate = read(QUALITY_GATE)
+    humanizer_gate = read(HUMANIZER_GATE)
+    rewriter = read(ORALIZATION_REWRITER)
+    handoff = read(HANDOFF_DOCUMENT)
+
+    assert_contains(project_rules, "正文不是围绕标题所属主题扩写", "title-answer boundary")
+    assert_contains(router, "answer the title itself", "router title-answer boundary")
+    assert_contains(quality_gate, "同领域但不能推进标题答案", "adjacent-topic deletion gate")
+    assert_contains(humanizer_gate, "默认执行强化表达审校", "default reinforced humanizer")
+    assert_contains(rewriter, "所有完整口播稿", "default oralization entry")
+    assert_contains(handoff, "不预设正文顺序", "framework-free handoff rule")
+
+
+def test_confirmed_scripts_route_to_the_digital_human_storyboard_contract() -> None:
+    router = read(WENAN_ROUTER)
+    project_rules = read(PROJECT_RULES)
+    handoff = read(HANDOFF_DOCUMENT)
+
+    assert STORYBOARD_SKILL.exists(), "Missing digital-human storyboard skill"
+    assert STORYBOARD_UI.exists(), "Missing digital-human storyboard UI metadata"
+
+    storyboard = read(STORYBOARD_SKILL)
+    storyboard_ui = read(STORYBOARD_UI)
+
+    assert_contains(router, "$digital-human-storyboard", "storyboard route")
+    assert_contains(router, "生成分镜脚本", "direct storyboard trigger")
+    assert_contains(router, "优先", "storyboard route priority")
+    assert_contains(project_rules, "生成分镜脚本", "project storyboard trigger")
+    assert_contains(handoff, "生成分镜脚本", "handoff storyboard trigger")
+    assert_contains(storyboard, "name: digital-human-storyboard", "storyboard skill name")
+    assert_contains(storyboard, "镜号｜时间码｜中文字幕｜英文字幕｜阿拉伯语字幕｜分镜｜画面／素材建议", "fixed seven-column header")
+    assert_contains(storyboard, "00:00.0–00:04.2", "timecode precision example")
+    assert_contains(storyboard, "4 个中文字符等价单位/秒", "initial time estimate")
+    assert_contains(storyboard, "0.3 秒", "semantic-pause estimate")
+    assert_contains(storyboard, "不得编造素材编号", "asset-id boundary")
+    assert_contains(storyboard, "待补拍", "missing-asset fallback")
+    assert_contains(storyboard, "中性示意图", "neutral-visual fallback")
+    assert_contains(storyboard, "不改写", "source-copy boundary")
+    assert_contains(storyboard, "阿拉伯语", "Arabic subtitle requirement")
+    assert_contains(storyboard_ui, "数字人口播分镜", "storyboard display name")

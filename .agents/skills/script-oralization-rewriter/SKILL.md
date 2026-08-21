@@ -29,6 +29,7 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
 1. Identify the draft's one core point.
    - Keep only the material that serves that point.
    - If the draft has multiple points, choose the most coherent one unless the user asks for diagnosis.
+   - Reorder the verified information as `判断 → 原因 → 动作` when that is the clearest explanation path.
 
 2. Preserve fact boundaries.
    - Read `references/fact-safety.md`.
@@ -40,6 +41,8 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
    - Replace written transitions with spoken ones.
    - Break long sentences into camera-friendly beats.
    - Add light prompts such as "你想啊", "说白了", "问题就在这", "很多人会忽略一点" only when natural.
+   - Explain each fact or condition group once. Replace abstract written wording with concrete wording, but do not add a lay explanation for terms the B2B audience already understands.
+   - Keep one main judgment or condition per sentence. Split a sentence only when that improves comprehension; do not increase the source draft's overall length.
 
 4. Re-speak rather than decorate.
    - Reorder sentences or paragraphs when that makes the same point easier to say and hear.
@@ -57,6 +60,7 @@ If the source draft has risky claims, keep the rewrite safer or flag internally.
    - Remove AI-sounding repetition, brochure slogans, mechanical lists, and abrupt sales turns only when doing so does not remove or alter a verified fact.
    - Do not use a more vivid hook, emotional pressure, or conversational phrasing to intensify a locked fact or imply an unsupported consequence.
    - Compare the rewrite with the source before output: keep every material conclusion, condition, comparison, cause, scope, company boundary, and source footer semantically unchanged. If a sentence cannot be made more spoken without changing meaning, keep the source sentence.
+   - The Humanizer pass keeps its role of removing AI tone, making the copy natural, and adjusting expression. It may adjust word order, paragraphing, pauses, and rhythm, but must not add explanations, ineffective transitions, or new sentences; it must not make the script longer, more circuitous, or disrupt the clear information order established above.
 
 7. Output only the rewritten script by default.
    - Preserve any existing `资料出处` footer from the source draft when the rewritten script still uses those facts.

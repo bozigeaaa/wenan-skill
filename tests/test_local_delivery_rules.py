@@ -253,3 +253,19 @@ def test_confirmed_scripts_route_to_the_digital_human_storyboard_contract() -> N
     assert_contains(storyboard, "不改写", "source-copy boundary")
     assert_contains(storyboard, "阿拉伯语", "Arabic subtitle requirement")
     assert_contains(storyboard_ui, "数字人口播分镜", "storyboard display name")
+
+
+def test_oralization_clarity_and_opening_hook_rules_are_connected() -> None:
+    project_rules = read(PROJECT_RULES)
+    rewriter = read(ORALIZATION_REWRITER)
+    humanizer_gate = read(HUMANIZER_GATE)
+    storyboard = read(STORYBOARD_SKILL)
+
+    assert_contains(project_rules, "判断 → 原因 → 动作", "clear spoken-information order")
+    assert_contains(rewriter, "Explain each fact or condition group once", "oralization repetition boundary")
+    assert_contains(rewriter, "do not increase the source draft's overall length", "oralization length boundary")
+    assert_contains(humanizer_gate, "去 AI 味、变自然、调整表达", "humanizer core role")
+    assert_contains(humanizer_gate, "不得增加解释、无效转场或新句子", "humanizer clarity boundary")
+    assert_contains(storyboard, "前 0–3 秒", "opening-hook timing")
+    assert_contains(storyboard, "留存钩子", "opening-hook visual instruction")
+    assert_contains(storyboard, "不得新增第八列", "seven-column preservation")

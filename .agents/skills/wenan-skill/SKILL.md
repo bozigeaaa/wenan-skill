@@ -34,6 +34,7 @@ Infer from the request when clear; otherwise ask only for information that chang
 - whether current external facts need verification;
 - whether a company evidence bridge is naturally relevant;
 - desired runtime and output format.
+- for a new complete script, one evidence-backed opening hook for the first 0–3 seconds; it must be part of the script's core judgment rather than an added claim. A confirmed script is not rewritten for this purpose: the storyboard may only package the hook visually in its first shot.
 
 For construction/project news, classify the project stage and apply the temporary-facility relevance gate. A project being in the construction industry is not proof that it needs the company’s products.
 
